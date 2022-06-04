@@ -1,0 +1,51 @@
+Github => version control system
+
+Working area => staging area => committing area
+
+mkdir LetsLearnGit
+
+cd LetsLearnGit
+
+git init
+
+ls -a => shows hidden git file
+
+git status
+
+Git add sum.cpp => add file to the staging area
+
+git commit -m "inital commit"
+
+Git log => to see the commits till now
+
+Git add . => all newly created files move to staging area
+
+Git checkout <commit code> => to move to a particular commit
+
+Git checkout master => to move back to master branch
+
+Git branch => to see the branches
+
+Git branch dev => making a new branch
+
+Git checkout dev=> to move to dev branch
+
+Git checkout -b Vardaan/multiply => direct command to make a new branch and checkout to it
+
+Git merge Vardaan/multiply => (you are in the dev branch currently) and then you merge it with Vardaan/multiply
+
+.gitignore
+
+After pushing 
+
+Git add .
+Git commit -m
+Git push
+
+To push another branch
+Git checkout dev
+Git push -u origin dev
+
+
+
+
